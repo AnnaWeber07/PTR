@@ -1,3 +1,5 @@
+import scala.util.Random
+
 object Hello {
   def main(args: Array[String]): Unit = {
     //W1
@@ -12,7 +14,7 @@ object Hello {
     val height = 3
     val radius = 4
 
-    println("area of cylinder with height $height and radius $radius")
+    println("area of cylinder with height $height and radius $radius: ")
     println(RiceFields.cylinderArea(height, radius))
     println()
 
@@ -21,6 +23,48 @@ object Hello {
     println("Original list: " + integers)
     println("Reversed list: " + RiceFields.reversal(integers))
     println()
+
+    val uniqueElements: List[Int] = List(1, 2, 4, 8, 4, 2)
+
+    println("Elements in a list " + uniqueElements)
+    println("Sum: " + RiceFields.uniqueSum(uniqueElements))
+    println()
+
+    val random = new Random()
+    var randomElements: List[Int] = List(1, 2, 4, 8, 4)
+    val randomQuantity = random.nextInt(randomElements.size)
+
+    println("Random elements quantity: " + randomQuantity)
+    for (x <- 1 to randomQuantity) {
+      print(random.nextInt(randomElements.length) + " ")
+    }
+
+    println()
+    println()
+
+    println(RiceFields.fibonacciNumbers())
+
+    println()
+
+    val line = "mama is dancing with papa"
+    println("Initial: " + line)
+    println("Overwritten: " + RiceFields.translate(line))
+
+    println()
+
+    val a = 2
+    val b = 4
+    val c = 3
+    print("Smallest order: ")
+    RiceFields.smallest(a, b, c)
+
+    println()
+
+    val seq: Seq[Int] = Seq(1, 2, 4, 8, 4)
+    val i = 3
+
+    println(RiceFields.rotateLeft(seq, i))
+
 
 
   }
