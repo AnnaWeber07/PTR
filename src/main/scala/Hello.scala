@@ -65,7 +65,48 @@ object Hello {
 
     println(RiceFields.rotateLeft(seq, i))
 
+    println()
+    println(RiceFields.listRightAngleTriangles())
 
+    println()
+
+    val consecutiveElementsList: List[Int] = List(1, 2, 2, 2, 4, 8, 4)
+    println("Consecutive elements list: " + consecutiveElementsList)
+    println("Remove occurrences: " + RiceFields.consecutiveDigitsCollector(consecutiveElementsList))
+
+    println()
+
+    val encText = "lorem"
+    val decText = "oruhp"
+    println("To be encrypted: " + encText + ". Result: " + RiceFields.encryption(encText, 3))
+    println("To be decrypted: " + decText + ". Result: " + RiceFields.decryption(decText, 3))
+
+    println()
+
+    println(RiceFields.combinationsOfLetters("23"))
+
+    println()
+
+    val strings = Array("eat", "tea", "tan", "ate", "nat", "bat")
+    val result = RiceFields.groupAnagrams(strings)
+    println(result)
+
+    println()
+
+    val arab = "75"
+    println(RiceFields.arabicToRoman(arab))
+
+    println()
+
+    val numToFactorize = 13
+    println(RiceFields.factorize(numToFactorize))
+
+    println()
+
+    val listOfStrings: Array[String] = Array("Hello", "Alaska", "Dad", "Peace")
+    println(RiceFields.lineWords(listOfStrings))
 
   }
+
+
 }
