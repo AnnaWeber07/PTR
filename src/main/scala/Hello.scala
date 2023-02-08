@@ -5,7 +5,9 @@ object Hello {
     //W1
     println("Hello PTR")
     val str = "Hello PTR"
-    RiceFields.Output(str)
+    var checker = RiceFields.Output(str)
+    println("Check the Hello PTR function: " + RiceFields.Verify(checker))
+
     println()
 
     //W2

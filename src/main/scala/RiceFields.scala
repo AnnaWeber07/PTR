@@ -224,7 +224,15 @@ object RiceFields {
     oneRowWords
   }
 
-  def Output(str: String): Unit = {
+  def Output(str: String): String = {
     println(str)
+    str
+  }
+
+  def Verify(str: String): Boolean = {
+    val check = "Hello PTR"
+    if (str == check)
+      true
+    else false
   }
 }
