@@ -224,4 +224,7 @@ object RiceFields {
     oneRowWords
   }
 
+  def Output(str: String): Unit = {
+    println(str)
+  }
 }

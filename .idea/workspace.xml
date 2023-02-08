@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="bonus tasks implemented">
+    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="minor i/o fixes for 1 task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Hello.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/RiceFields.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/RiceFields.scala" afterDir="false" />
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675714385818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="minor i/o fixes for 1 task">
+      <created>1675839240816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675839240816</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +125,7 @@
     <MESSAGE value="week2 update" />
     <MESSAGE value="week 2 minimal tasks push to repo" />
     <MESSAGE value="bonus tasks implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="bonus tasks implemented" />
+    <MESSAGE value="minor i/o fixes for 1 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor i/o fixes for 1 task" />
   </component>
 </project>

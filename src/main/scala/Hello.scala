@@ -4,6 +4,8 @@ object Hello {
   def main(args: Array[String]): Unit = {
     //W1
     println("Hello PTR")
+    val str = "Hello PTR"
+    RiceFields.Output(str)
     println()
 
     //W2
@@ -93,7 +95,7 @@ object Hello {
 
     println()
 
-    val arab = "75"
+    val arab = "13"
     println(RiceFields.arabicToRoman(arab))
 
     println()
