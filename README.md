@@ -4,7 +4,7 @@
 
 ### Integrated development envirponment:
 **IDE**: IntelliJ Idea (c) JetBrains
-**Plugin**: Scala
+**Plugin**: Scala + Akka
 
 ### Here are the links to reports using .md format:
 - tbd
@@ -14,3 +14,4 @@
 ### Task overview:
 
 **P0W1** - completely executed
+**P0W2** - complelety executed
