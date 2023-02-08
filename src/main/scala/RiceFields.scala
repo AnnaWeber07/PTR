@@ -84,14 +84,8 @@ object RiceFields {
       println(min + " " + mid + " " + max)
     else if (min == 0)
       println(mid + " " + min + " " + max)
-    else if (min == 0 && mid == 0)
-      println(max + " " + min + " " + mid)
-    else if (min == 0 && max == 0)
-      println(mid + " " + min + " " + max)
     else if (max == 0)
       println(min + " " + max + " " + mid)
-    else if (mid == 0)
-      println(min + " " + mid + " " + max)
   }
 
   def rotateLeft[A](sequence: Seq[A], i: Int): Seq[A] = {
@@ -223,7 +217,11 @@ object RiceFields {
       rows.exists(row => wordSet.subsetOf(row))
     }
 
-    words.filter(isOneRowWord)
+    val oneRowWords = words.filter(isOneRowWord)
+
+    oneRowWords.foreach(println)
+
+    oneRowWords
   }
 
 }

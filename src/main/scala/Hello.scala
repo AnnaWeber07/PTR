@@ -104,7 +104,9 @@ object Hello {
     println()
 
     val listOfStrings: Array[String] = Array("Hello", "Alaska", "Dad", "Peace")
-    println(RiceFields.lineWords(listOfStrings))
+
+    RiceFields.lineWords(listOfStrings)
+    println()
 
   }
 
