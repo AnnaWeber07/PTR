@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/QueueActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Hello.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Supervisor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Supervisor.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,30 +72,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Average">
-    <configuration name="Average" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Average" />
+  <component name="RunManager" selected="Application.SemaphoreApp">
+    <configuration name="FuckThis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="FuckThis" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Queue" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarkedAsDone" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MarkedAsDone" />
+    <configuration name="Schedule" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Schedule" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Print" />
+    <configuration name="SemaphoreApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SemaphoreApp" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Average" />
+        <item itemvalue="Application.SemaphoreApp" />
+        <item itemvalue="Application.Schedule" />
+        <item itemvalue="Application.FuckThis" />
+        <item itemvalue="Application.Queue" />
         <item itemvalue="Application.Supervisor" />
-        <item itemvalue="Application.Print" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MarkedAsDone" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +134,8 @@
       <workItem from="1676964838082" duration="1767000" />
       <workItem from="1676989794451" duration="932000" />
       <workItem from="1676992606762" duration="1848000" />
-      <workItem from="1676994483666" duration="1941000" />
+      <workItem from="1676994483666" duration="6553000" />
+      <workItem from="1677001389603" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="week2 update">
       <created>1675272418597</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675840706530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="week 3 tasks">
+      <created>1676996568905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676996568905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,10 @@
     <MESSAGE value="week 2 minimal tasks push to repo" />
     <MESSAGE value="bonus tasks implemented" />
     <MESSAGE value="minor i/o fixes for 1 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor i/o fixes for 1 task" />
+    <MESSAGE value="week 3 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 3 tasks" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PTR$SemaphoreApp.ic" NAME="SemaphoreApp Coverage Results" MODIFIED="1676998894044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
