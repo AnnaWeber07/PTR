@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks" />
+    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Listy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Listy.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +71,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreApp">
+  <component name="RunManager" selected="Application.DoublyLinkedListActor">
+    <configuration name="DoublyLinkedListActor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListActor" />
+      <module name="PTR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FuckThis" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="FuckThis" />
       <module name="PTR" />
@@ -97,20 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Supervisor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Supervisor" />
-      <module name="PTR" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublyLinkedListActor" />
         <item itemvalue="Application.SemaphoreApp" />
         <item itemvalue="Application.Schedule" />
         <item itemvalue="Application.FuckThis" />
         <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.Supervisor" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +134,7 @@
       <workItem from="1676989794451" duration="932000" />
       <workItem from="1676992606762" duration="1848000" />
       <workItem from="1676994483666" duration="6553000" />
-      <workItem from="1677001389603" duration="3994000" />
+      <workItem from="1677001389603" duration="5020000" />
     </task>
     <task id="LOCAL-00001" summary="week2 update">
       <created>1675272418597</created>
@@ -189,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677005010256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="week 3 tasks">
+      <created>1677005576477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677005576477</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

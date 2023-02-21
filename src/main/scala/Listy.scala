@@ -56,6 +56,7 @@ object DoublyLinkedListActor {
 
         if (prevActor.isDefined) {
           prevActor.get ! Next(nodeActor)
+          nodeActor ! Prev(prevActor.get)
         } else {
           firstActor = Some(nodeActor)
         }
@@ -63,15 +64,15 @@ object DoublyLinkedListActor {
         prevActor = Some(nodeActor)
       }
 
-      if (prevActor.isDefined) {
+      if (prevActor.isDefined && firstActor.isDefined) {
         prevActor.get ! Next(firstActor.get)
         firstActor.get ! Prev(prevActor.get)
-      }
 
-      val traverseMsg = Traverse()
-      firstActor.get ! traverseMsg
-      val inverseMsg = Inverse()
-      prevActor.get ! inverseMsg
+        val traverseMsg = Traverse()
+        firstActor.get ! traverseMsg
+        val inverseMsg = Inverse()
+        prevActor.get ! inverseMsg
+      }
     }
 
     system.terminate()
