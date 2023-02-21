@@ -1,4 +1,8 @@
 import scala.util.Random
+import akka.actor.{ActorSystem, Props}
+import akka.event.Logging
+
+import java.time.InstantSource.system
 
 object Hello {
   def main(args: Array[String]): Unit = {
@@ -112,7 +116,7 @@ object Hello {
     RiceFields.lineWords(listOfStrings)
     println()
 
+    //here starts the 3rd week
+
   }
-
-
 }

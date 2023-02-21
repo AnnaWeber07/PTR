@@ -13,6 +13,16 @@
         </option>
         <option name="sbtVersion" value="1.8.2" />
       </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ActorModel" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ActorModel" />
+            <option value="$PROJECT_DIR$/ActorModel/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.8.2" />
+      </SbtProjectSettings>
     </option>
   </component>
 </project>
