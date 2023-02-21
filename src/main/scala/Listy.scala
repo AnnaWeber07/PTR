@@ -1,80 +1,79 @@
-import Main.timeout
-import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+import akka.actor._
 
-import scala.io.StdIn
-import scala.concurrent.duration._
-import scala.concurrent.Await
-import akka.pattern.ask
+case class Add(actor: ActorRef)
+case class Next(actor: ActorRef)
+case class Prev(actor: ActorRef)
+case class Traverse()
+case class Inverse()
 
-case object Traverse
-case object Inverse
+class NodeActor(val value: Int) extends Actor {
+  var next: Option[ActorRef] = None
+  var prev: Option[ActorRef] = None
 
-class Node(value: Int, var prev: Option[ActorRef], var next: Option[ActorRef]) extends Actor {
   def receive = {
-    case Traverse =>
-      val nextNode = next.getOrElse(sender())
-      val list = Await.result(nextNode ? Traverse, 5.seconds).asInstanceOf[List[Int]]
-      sender() ! (value :: list)
-
-    case Inverse =>
-      val prevNode = prev.getOrElse(sender())
-      val list = Await.result(prevNode ? Inverse, 5.seconds).asInstanceOf[List[Int]]
-      sender() ! (value :: list)
+    case Add(actor) =>
+      next = Some(actor)
+    case Next(actor) =>
+      next = Some(actor)
+      actor ! Prev(self)
+    case Prev(actor) =>
+      prev = Some(actor)
+    case Traverse() =>
+      var current = self
+      var values = List[Int]()
+      while (current != null) {
+        values = values :+ current.asInstanceOf[NodeActor].value
+        current = current.asInstanceOf[NodeActor].next.getOrElse(null)
+      }
+      println(values)
+    case Inverse() =>
+      var current = self
+      var values = List[Int]()
+      while (current != null) {
+        values = values :+ current.asInstanceOf[NodeActor].value
+        current = current.asInstanceOf[NodeActor].prev.getOrElse(null)
+      }
+      println(values)
   }
 }
 
-class DLList(head: ActorRef, tail: ActorRef) {
-  def traverse(): List[Int] = {
-    val result = Await.result(head ? Traverse, 5.seconds).asInstanceOf[List[Int]]
-    result.reverse
-  }
+object DoublyLinkedListActor {
+  def main(args: Array[String]) {
+    val system = ActorSystem("DoublyLinkedListSystem")
 
-  def inverse(): List[Int] = {
-    val result = Await.result(tail ? Inverse, 5.seconds).asInstanceOf[List[Int]]
-    result.reverse
-  }
-}
+    println("Enter the number of doubly linked lists to create:")
+    val numLists = scala.io.StdIn.readInt()
 
-object DLList {
-  def apply(values: List[Int])(implicit system: ActorSystem): DLList = {
-    val nodes = values.map { value => system.actorOf(Props(new Node(value, None, None))) }
-    for (i <- nodes.indices) {
-      nodes(i) ! Inverse -> (if (i == 0) None else Some(nodes(i-1)))
-      nodes(i) ! Traverse -> (if (i == nodes.length - 1) None else Some(nodes(i+1)))
+    for (i <- 0 until numLists) {
+      println(s"Enter the values for list $i, separated by spaces:")
+      val values = scala.io.StdIn.readLine().split(" ").map(_.toInt)
+
+      var prevActor: Option[ActorRef] = None
+      var firstActor: Option[ActorRef] = None
+
+      for (value <- values) {
+        val nodeActor = system.actorOf(Props(new NodeActor(value)), s"NodeActor-$i-$value")
+
+        if (prevActor.isDefined) {
+          prevActor.get ! Next(nodeActor)
+        } else {
+          firstActor = Some(nodeActor)
+        }
+
+        prevActor = Some(nodeActor)
+      }
+
+      if (prevActor.isDefined) {
+        prevActor.get ! Next(firstActor.get)
+        firstActor.get ! Prev(prevActor.get)
+      }
+
+      val traverseMsg = Traverse()
+      firstActor.get ! traverseMsg
+      val inverseMsg = Inverse()
+      prevActor.get ! inverseMsg
     }
-    val head = nodes.head
-    val tail = nodes.last
-    DLList(head, tail)
-  }
-}
 
-object DLListApp extends App {
-  implicit val system = ActorSystem("DLListSystem")
-
-  print("Enter a list of integers, separated by spaces: ")
-  val values = StdIn.readLine().trim.split(" ").map(_.toInt).toList
-
-  val list = DLList(values)
-
-  while (true) {
-    println("Enter a command (traverse, inverse, quit):")
-    val input = StdIn.readLine().trim.toLowerCase
-
-    input match {
-      case "traverse" =>
-        val result = list.traverse()
-        println(s"List: $result")
-
-      case "inverse" =>
-        val result = list.inverse()
-        println(s"Inverse list: $result")
-
-      case "quit" =>
-        system.terminate()
-        System.exit(0)
-
-      case _ =>
-        println(s"Invalid command: $input")
-    }
+    system.terminate()
   }
 }

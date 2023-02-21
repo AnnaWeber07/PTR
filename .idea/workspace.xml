@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/QueueActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Supervisor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Supervisor.scala" afterDir="false" />
-    </list>
+    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +131,7 @@
       <workItem from="1676989794451" duration="932000" />
       <workItem from="1676992606762" duration="1848000" />
       <workItem from="1676994483666" duration="6553000" />
-      <workItem from="1677001389603" duration="3498000" />
+      <workItem from="1677001389603" duration="3994000" />
     </task>
     <task id="LOCAL-00001" summary="week2 update">
       <created>1675272418597</created>
@@ -186,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676996568905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="week 3 tasks">
+      <created>1677005010256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677005010256</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
