@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks">
+    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks all complete">
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Listy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Listy.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,32 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Анна/IdeaProjects/PTR&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Анна/IdeaProjects/PTR",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DoublyLinkedListActor">
+  <component name="RunManager" selected="Application.Schedule">
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Average" />
+      <module name="PTR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoublyLinkedListActor" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DoublyLinkedListActor" />
       <module name="PTR" />
@@ -79,15 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuckThis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="FuckThis" />
-      <module name="PTR" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Queue" />
+    <configuration name="Print" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Print" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Schedule" />
         <item itemvalue="Application.DoublyLinkedListActor" />
         <item itemvalue="Application.SemaphoreApp" />
-        <item itemvalue="Application.Schedule" />
-        <item itemvalue="Application.FuckThis" />
-        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Average" />
+        <item itemvalue="Application.Print" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +134,12 @@
       <workItem from="1676989794451" duration="932000" />
       <workItem from="1676992606762" duration="1848000" />
       <workItem from="1676994483666" duration="6553000" />
-      <workItem from="1677001389603" duration="5020000" />
+      <workItem from="1677001389603" duration="6047000" />
+      <workItem from="1677007590739" duration="828000" />
+      <workItem from="1677048147147" duration="2442000" />
+      <workItem from="1677154052193" duration="33000" />
+      <workItem from="1677243553730" duration="2000" />
+      <workItem from="1677600663104" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="week2 update">
       <created>1675272418597</created>
@@ -199,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677005576477</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="week 3 tasks all complete">
+      <created>1677006822751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677006822751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +234,8 @@
     <MESSAGE value="bonus tasks implemented" />
     <MESSAGE value="minor i/o fixes for 1 task" />
     <MESSAGE value="week 3 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 3 tasks" />
+    <MESSAGE value="week 3 tasks all complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 3 tasks all complete" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PTR$SemaphoreApp.ic" NAME="SemaphoreApp Coverage Results" MODIFIED="1676998894044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
