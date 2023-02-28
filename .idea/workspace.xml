@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 3 tasks all complete">
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+    <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 4 tasks all complete">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/WorkerClass.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Scheduler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Scheduler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Supervisor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/TaskSupervisor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Worker.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,37 +74,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Schedule">
-    <configuration name="Average" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Average" />
+  <component name="RunManager" selected="Application.StringCleaningApp">
+    <configuration name="MainWorker" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MainWorker" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedListActor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="DoublyLinkedListActor" />
+    <configuration name="PulpFictionSupervision" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="PulpFictionSupervision" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Print" />
+    <configuration name="StringCleaningApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="StringCleaningApp" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schedule" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Schedule" />
+    <configuration name="WorkerPool" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="WorkerPool" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SemaphoreApp" />
+    <configuration name="Workerrr" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Workerrr" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Schedule" />
-        <item itemvalue="Application.DoublyLinkedListActor" />
-        <item itemvalue="Application.SemaphoreApp" />
-        <item itemvalue="Application.Average" />
-        <item itemvalue="Application.Print" />
+        <item itemvalue="Application.StringCleaningApp" />
+        <item itemvalue="Application.MainWorker" />
+        <item itemvalue="Application.Workerrr" />
+        <item itemvalue="Application.WorkerPool" />
+        <item itemvalue="Application.PulpFictionSupervision" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +142,8 @@
       <workItem from="1677048147147" duration="2442000" />
       <workItem from="1677154052193" duration="33000" />
       <workItem from="1677243553730" duration="2000" />
-      <workItem from="1677600663104" duration="2948000" />
+      <workItem from="1677600663104" duration="7229000" />
+      <workItem from="1677610332811" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="week2 update">
       <created>1675272418597</created>
@@ -211,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677006822751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="week 4 tasks all complete">
+      <created>1677605575893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677605575893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +246,8 @@
     <MESSAGE value="minor i/o fixes for 1 task" />
     <MESSAGE value="week 3 tasks" />
     <MESSAGE value="week 3 tasks all complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 3 tasks all complete" />
+    <MESSAGE value="week 4 tasks all complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 tasks all complete" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PTR$SemaphoreApp.ic" NAME="SemaphoreApp Coverage Results" MODIFIED="1676998894044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

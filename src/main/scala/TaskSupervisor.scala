@@ -40,7 +40,7 @@ class MonitoringActor(monitored: ActorRef) extends Actor {
   }
 }
 
-object Supervisor extends App {
+object SupervisorTask extends App {
   val system = ActorSystem("MonitoringSystem")
 
   val monitoredActor = system.actorOf(Props[MonitoredActor], "monitoredActor")

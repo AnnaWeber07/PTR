@@ -17,7 +17,7 @@ class Scheduler extends Actor {
 
   def receive: Receive = {
     case Task(data) =>
-      val worker = context.actorOf(Props[Worker])
+      val worker = context.actorOf(Props[WorkerClass])
       worker ! Worker.DoTask(data)
     case TaskResult(result) =>
       println(s"Task successful: $result")
