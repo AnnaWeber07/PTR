@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="905572fd-c4be-4eaa-9999-6894d0056292" name="Changes" comment="week 4 tasks all complete">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/WorkerClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Scheduler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Scheduler.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Supervisor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/TaskSupervisor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Worker.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Camry.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Camry.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,32 +48,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Анна/IdeaProjects/PTR",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Анна/IdeaProjects/PTR&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PostgreSQL, Greenplum, Redshift&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringCleaningApp">
+  <component name="RunManager" selected="Application.AkkaHttpClientExample3">
+    <configuration name="AkkaHttpClientExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AkkaHttpClientExample" />
+      <module name="PTR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AkkaHttpClientExample2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AkkaHttpClientExample2" />
+      <module name="PTR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AkkaHttpClientExample3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AkkaHttpClientExample3" />
+      <module name="PTR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainWorker" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MainWorker" />
       <module name="PTR" />
@@ -82,29 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PulpFictionSupervision" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="PulpFictionSupervision" />
-      <module name="PTR" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCleaningApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="StringCleaningApp" />
-      <module name="PTR" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkerPool" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="WorkerPool" />
-      <module name="PTR" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Workerrr" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Workerrr" />
+    <configuration name="SensorSystemExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SensorSystemExample" />
       <module name="PTR" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringCleaningApp" />
+        <item itemvalue="Application.AkkaHttpClientExample3" />
+        <item itemvalue="Application.AkkaHttpClientExample2" />
+        <item itemvalue="Application.AkkaHttpClientExample" />
         <item itemvalue="Application.MainWorker" />
-        <item itemvalue="Application.Workerrr" />
-        <item itemvalue="Application.WorkerPool" />
-        <item itemvalue="Application.PulpFictionSupervision" />
+        <item itemvalue="Application.SensorSystemExample" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,18 @@
       <workItem from="1677154052193" duration="33000" />
       <workItem from="1677243553730" duration="2000" />
       <workItem from="1677600663104" duration="7229000" />
-      <workItem from="1677610332811" duration="4889000" />
+      <workItem from="1677610332811" duration="5144000" />
+      <workItem from="1677654651230" duration="821000" />
+      <workItem from="1677655883381" duration="160000" />
+      <workItem from="1677656095956" duration="238000" />
+      <workItem from="1677659440198" duration="673000" />
+      <workItem from="1677662112662" duration="786000" />
+      <workItem from="1678178092535" duration="645000" />
+      <workItem from="1678192525883" duration="1221000" />
+      <workItem from="1678205456907" duration="5515000" />
+      <workItem from="1678218580522" duration="762000" />
+      <workItem from="1678219718245" duration="3140000" />
+      <workItem from="1678253964507" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="week2 update">
       <created>1675272418597</created>
@@ -222,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677605575893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="week 4 tasks all complete">
+      <created>1677615297950</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677615297950</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +265,17 @@
     <MESSAGE value="week 3 tasks all complete" />
     <MESSAGE value="week 4 tasks all complete" />
     <option name="LAST_COMMIT_MESSAGE" value="week 4 tasks all complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/RiceFields.scala</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PTR$SemaphoreApp.ic" NAME="SemaphoreApp Coverage Results" MODIFIED="1676998894044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
