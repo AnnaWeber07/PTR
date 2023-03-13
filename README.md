@@ -8,12 +8,4 @@ All rights reserved! Any reproduction, copy or personal use is prohibited.
 **IDE**: IntelliJ Idea (c) JetBrains
 **Plugin**: Scala + Akka
 
-### Here are the links to reports using .md format:
-- tbd
-- tbd
-- tbd
-
-### Task overview:
-
-**P0W1** - completely executed
-**P0W2** - complelety executed
+### There's a PDF report file initially made in LaTeX that explains every task.
