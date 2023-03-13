@@ -1,6 +1,8 @@
-## Repo for UTM PTR labs using Scala. By Chiriciuc Anna, FAF-201
+## Repo for UTM PTR labs using Scala
 
 **This repository includes laboratory works made by Chiririciuc Anna**
+
+All rights reserved! Any reproduction, copy or personal use is prohibited.
 
 ### Integrated development envirponment:
 **IDE**: IntelliJ Idea (c) JetBrains
