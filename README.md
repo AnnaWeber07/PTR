@@ -1,4 +1,4 @@
-## Repo for UTM PTR labs using Scala
+## Repo for UTM PTR PROJECT 0 using Scala
 
 **This repository includes laboratory works made by Chiririciuc Anna**
 
